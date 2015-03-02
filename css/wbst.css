@@ -1,10 +1,4 @@
 /*
-Prevent momentary appearance of WP fallback header, sidebar and footer during long page loads.
-(the wbst jQuery removes these, but before it kicks in the fallback template parts may flicker.)
-*/
-#header, #sidebar, #footer { display: none }
-
-/*
 HOVERNAV
 ========
 A simple addition to the dropdown menu (Bootstrap itself is unchanged). Navbar dropdowns appear on hover.
