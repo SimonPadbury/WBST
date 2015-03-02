@@ -63,7 +63,7 @@ function bst_plus_commerce_switch_buttons( $button ){
 Place a cart icon with number of items and total cost in the menu bar.
 */
 function wbst_woomenucart($menu, $args) {
-	// Check if WooCommerce is active and add a new item to a menu assigned to Primary Navigation Menu location
+	// Check if WooCommerce is active and add a new item to a menu assigned to "Navbar Upper Right" (Primary Navigation Menu) location
 	if ( !in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) || 'navbar_upper_right' !== $args->theme_location )
 		return $menu;
 	ob_start();
