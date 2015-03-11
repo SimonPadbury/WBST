@@ -5,7 +5,6 @@
     
     <div class="col-xs-12 col-sm-8">
       <div id="content" role="main">
-        <?php tha_content_before(); ?>
         <h2><?php _e('Search Results for', 'wbst'); ?> &ldquo;<?php the_search_query(); ?>&rdquo;</h2>
         <hr/>
         <?php get_template_part('includes/loops/content', 'search'); ?>
