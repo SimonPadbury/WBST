@@ -167,10 +167,3 @@ class wp_bootstrap_navwalker extends Walker_Nav_Menu {
 	}
 }
 
-// Upper navbar (above site title)
-register_nav_menu('navbar-upper-left', __('Upper navbar (left)', 'wbst'));
-register_nav_menu('navbar-upper-right', __('Upper navbar (right)', 'wbst'));
-
-// Lower navbar (below site title)
-register_nav_menu('navbar-lower-left', __('Lower navbar (left)', 'wbst'));
-register_nav_menu('navbar-lower-right', __('Lower navbar (right)', 'wbst'));
