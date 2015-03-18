@@ -1,12 +1,12 @@
 #WBST
 
-*Version 1.2.1*
+*Version 1.3*
 
 **WBST WordPress starter theme with Bootstrap and WooCommerce compatibility.** It also has my popular two scripts – Hovernav (Bootstrap navbar dropdown on hover) and Meganav (Bootstrap navbar megamenu).
 
 -----
 
-WBST Plus has a little brother – **BST**, Bootstrap Starter Theme [https://github.com/SimonPadbury/bst](https://github.com/SimonPadbury/bst). It shares the same basic features as BST, and adds a few more features. 
+WBST Plus has a little brother – **BST**, Bootstrap Starter Theme [https://github.com/SimonPadbury/bst](https://github.com/SimonPadbury/bst). WBST shares the same basic features as BST, but adds a few more features. 
 
 If you want even more features, you may find them in the biggest member of this family – **BST-Plus** [https://github.com/BST-Plus/BST-Plus](https://github.com/BST-Plus/BST-Plus).
 
