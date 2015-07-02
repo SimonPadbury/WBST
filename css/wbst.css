@@ -37,8 +37,7 @@ If you don't want this, delete this segment of the CSS and delete the correspond
 .mega-menu ul a {
 	color: #666;
 }
-.has-children > a {
-	font-size: 15px;
+.mega-menu > ul > li > a {
 	font-weight: bold !important
 }
 @media (max-width: 767px) {
@@ -67,12 +66,13 @@ If you don't want this, delete this segment of the CSS and delete the correspond
 		box-shadow: none;
 		padding: 0
 	}
-	.has-children {
+	.dropdown-menu li {
 		border-right: 1px solid #e7e7e7
 	}
-	.has-children:last-of-type {
-		border-right: 0
-	}
+    .dropdown-menu li li,
+    .dropdown-menu li:last-of-type {
+        border-right: 0
+    }
 }
 
 

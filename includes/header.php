@@ -31,7 +31,7 @@
       <?php
             wp_nav_menu( array(
                 'theme_location'    => 'navbar-upper-left',
-                'depth'             => 2,
+                'depth'             => 3,
                 'menu_class'        => 'nav navbar-nav',
                 'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
                 'walker'            => new wp_bootstrap_navwalker())
@@ -41,7 +41,7 @@
         <?php
             wp_nav_menu( array(
                 'theme_location'    => 'navbar-upper-right',
-                'depth'             => 2,
+                'depth'             => 3,
                 'menu_class'        => 'nav navbar-nav navbar-right',
                 'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
                 'walker'            => new wp_bootstrap_navwalker())
@@ -76,7 +76,7 @@
         <?php
             wp_nav_menu( array(
                 'theme_location'    => 'navbar-lower-left',
-                'depth'             => 2,
+                'depth'             => 3,
                 'menu_class'        => 'nav navbar-nav',
                 'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
                 'walker'            => new wp_bootstrap_navwalker())
@@ -84,7 +84,7 @@
         ?><?php
             wp_nav_menu( array(
                 'theme_location'    => 'navbar-lower-right',
-                'depth'             => 2,
+                'depth'             => 3,
                 'menu_class'        => 'nav navbar-nav navbar-right',
                 'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
                 'walker'            => new wp_bootstrap_navwalker())

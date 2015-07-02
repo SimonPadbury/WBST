@@ -1,6 +1,6 @@
 #WBST
 
-*Version 1.4.1*
+*Version 1.4.2*
 
 **WBST WordPress starter theme with Bootstrap and WooCommerce compatibility.** It also has my popular two scripts – Hovernav (Bootstrap navbar dropdown on hover) and Meganav (Bootstrap navbar megamenu).
 
@@ -30,3 +30,22 @@ If you want even more features, you may find them in the biggest member of this 
 * A few simple jQuery scripts – in `js/wbst.js`, enqueued.
 * Custom comment list callback.
 * [MIT licence](http://opensource.org/licenses/MIT) (open source).
+
+###Notes on Hovernav and Meganav
+
+**Hovernav** is comprised of some jQuery and CSS that together restore "sub-menu appears on hover (mouseover)" to Bootstrap, for screen widths > 786px. Screen tap functionality (e.g. tablets) is not changed. _If you don't want Hovernav, simply delete these styles and scripts and the normal Bootstrap behavior is restored._
+
+**Meganav** is comprised of some jQuery and CSS that enable the bootstrap navbar dropdown to appear as a _megamenu_ if there is a sub-sub-menu (i.e. grandchild menu) present. On small screens (<=768px) the sub-sub-menu appears within the big dropdown (i.e. it is available on small screens too). _If you don't want Meganav, simply delete these styles and scripts and the normal Bootstrap behavior is restored._
+
+To set up a mega-menu in WordPress, simply use the menu builder in the normal way, dragging menu items to the right until you have sub-sub-menus, e.g.
+
+```
+Parent link 1
+Parent link 2
+	Child link 2.1
+		Grandchild link 2.1.1
+		Grandchild link 2.1.2
+		Grandchild link 2.1.3
+	Child link 2.2
+Parent link 3
+```
