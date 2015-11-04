@@ -32,9 +32,9 @@
         }
         // Restore "clickable parent links" in HOVERNAV navbar(s)
         // (Also makes the bold CHILD links clickable in the MEGANAV megamenu (see below)
-        $('.hovernav a').click(function () {
-            window.location = this.href;
-        });
+        //$('.hovernav a').click(function () {
+        //    window.location = this.href;
+        //});
   
         //MEGANAV - allows GRAND-CHILD links to be displayed in a mega-menu on screens larger than phones.
         // Delete this segment if you don't want it, and delete the corresponding CSS in bst.css
