@@ -1,6 +1,6 @@
 <?php
 // WooCommerce functions
-if ( ! function_exists( 'bst_plus_woocommerce_setup' ) ) :
+if ( ! function_exists( 'wbst_woocommerce_setup' ) ) :
   function wbst_woocommerce_setup() {
     add_theme_support( 'woocommerce' );
   }
@@ -43,19 +43,19 @@ function dazzling_woocommerce_image_dimensions() {
 remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
 remove_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);
 // Add BST Plus wrappers
-add_action('woocommerce_before_main_content', 'bst_plus_wrapper_start', 10);
-add_action('woocommerce_after_main_content', 'bst_plus_wrapper_end', 10);
+add_action('woocommerce_before_main_content', 'wbst_wrapper_start', 10);
+add_action('woocommerce_after_main_content', 'wbst_wrapper_end', 10);
 function reinnervate_wrapper_start() {
   echo '<div id="content" class="site-content container">';
   echo '<div id="primary" class="content-area col-sm-12 col-md-8 '.of_get_option('site_layout').' ">';
   echo '<main id="main" class="site-main" role="main">';
 }
-function bst_plus_wrapper_end() {
+function wbst_wrapper_end() {
   echo '</main></div>';
 }
 // Replace WooComemrce button class with Bootstrap
 /*add_filter('woocommerce_loop_add_to_cart_link', 'dazzling_commerce_switch_buttons');
-function bst_plus_commerce_switch_buttons( $button ){
+function wbst_commerce_switch_buttons( $button ){
   $button = str_replace('button', 'btn btn-default', $button);
   return $button;
 }*/
