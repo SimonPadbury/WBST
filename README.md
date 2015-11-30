@@ -1,6 +1,6 @@
 #WBST
 
-*Version 1.4.3*
+*Version 1.4.4*
 
 **WBST WordPress starter theme with Bootstrap and WooCommerce compatibility.** It also has my popular two scripts – Hovernav (Bootstrap navbar dropdown on hover) and Meganav (Bootstrap navbar megamenu).
 
