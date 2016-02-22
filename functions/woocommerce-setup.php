@@ -42,7 +42,7 @@ function dazzling_woocommerce_image_dimensions() {
 // Remove original WooCommerce wrappers
 remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
 remove_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);
-// Add BST Plus wrappers
+// Add WBST wrappers
 add_action('woocommerce_before_main_content', 'wbst_wrapper_start', 10);
 add_action('woocommerce_after_main_content', 'wbst_wrapper_end', 10);
 function wbst_wrapper_start() {
